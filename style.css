@@ -1,0 +1,43 @@
+h1 {
+    color: #ff6347;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 100px;
+}
+h2 {
+    color: #00ff1e;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+button{
+    background-color: #4CAF50; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No text decoration */
+  display: inline-block; /* Make it an inline block */
+  font-size: 16px; /* Set font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Make it a pointer on hover */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 5px #666; /* Shadow */
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+  
+}
+
+button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+    box-shadow: 0 8px #666; /* More shadow on hover */
+    
+}
+  
+button:active {
+    background-color: #2b542c; /* Even darker green on active */
+    box-shadow: 0 5px #666; /* Less shadow on active */
+    transform: translateY(4px); /* Move the button down by 4px on active */
+}
